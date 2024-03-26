@@ -32,3 +32,8 @@ class Solution:
         result = dummyHead.next
         dummyHead.next = None
         return result
+
+# Time Complexity: O(max(n, m)), where n and m are the lengths of the input linked lists.
+#    We iterate through both lists simultaneously, performing a constant amount of work for each node.
+# Space Complexity: O(max(n, m)), where n and m are the lengths of the input linked lists.
+#    The space used by the output linked list is proportional to the maximum length between the two input lists.
